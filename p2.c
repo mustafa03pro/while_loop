@@ -1,14 +1,15 @@
 #include<stdio.h>
-void main(){
-    int i=0,n,sum=0;
-    printf("enetr the no: ");scanf("%d",&n);
-    while (n>=i)
+int main(){
+    int r,c,n;
+    printf("enter the r & c value:  ");scanf("%d",&n);
+    for (r = 1; r <=n; r++)
     {
-        sum+=n;
-        printf("%d",n);
-
-        n--;
+        for ( c = 1; c <=n; c++)
+        {
+            printf("%3d",c);
+        }
+        printf("\n");
+        
     }
-    printf("sum=%d",sum);
-    
+    return 0;
 }
