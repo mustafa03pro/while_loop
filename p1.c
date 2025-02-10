@@ -1,15 +1,10 @@
 #include<stdio.h>
 int main(){
-    int r,c;
-    printf("enter the r & c value:  ");scanf("%d%d",&r,&c);
-    for (r = 1; r <=3; r++)
+    int n,i;
+    printf("enetr the no: ");scanf("%d",&n);
+    for ( i = 1; i < 11; i++)
     {
-        for ( c = 1; c <=4; c++)
-        {
-            printf("* ");
-        }
-        printf("\n");
-        
+        printf("%d*%d=%d\n",n,i,n*i);
     }
-    return 0;
+    
 }
